@@ -19,7 +19,7 @@ public class Main {
 			}
 			System.out.print("\n");
 			
-		}while(input.length() > 0 && input.charAt(input.length()-1)!='q');
+		}while(!input.equals(":q"));
 		
 		scanner.close();
 		
