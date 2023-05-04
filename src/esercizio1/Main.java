@@ -27,7 +27,7 @@ public class Main {
 
 	public static boolean checkAnnoBisestile(int anno) {
 
-		if (anno % 4 == 0 && anno % 400 == 0) {
+		if (anno % 4 == 0 ||(anno %100 == 0 && anno % 400 == 0)) {
 
 			return true;
 
