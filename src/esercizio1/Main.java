@@ -8,7 +8,7 @@ public class Main {
 
 		System.out.println(checkStr(check));
 
-		int checkAnno = 2000;
+		int checkAnno = 1700;
 		
 		System.out.println(checkAnnoBisestile(checkAnno));
 
@@ -27,7 +27,7 @@ public class Main {
 
 	public static boolean checkAnnoBisestile(int anno) {
 
-		if (anno % 4 == 0 ||(anno %100 == 0 && anno % 400 == 0)) {
+		if (anno % 400 == 0 && anno %100 == 0 && anno % 4 == 0) {
 
 			return true;
 
